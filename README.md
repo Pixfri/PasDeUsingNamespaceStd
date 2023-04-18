@@ -3,7 +3,7 @@
 Tu gagnes vraiment du temps à ne pas écrire 5 caractères ? Même moi avec le placement catastrophique de mes doigts sur mon clavier je perd même pas une seconde à l'écrire. Et le temps que tu mettras à régler tes problèmes quand tu en aura à cause du `using namespace std`  sera bien supérieur à celui que tu auras économisé en ne tapant pas 5 caractères.
 
 ## Pourquoi ça existe s'il faut pas l'utiliser ?
-Cette ligne car à une  époque, le C++ ne possédait pas le concept de namespace, donc toute les fonctions, classes, etc... de la librairie standard n'avaient pas de namespace, mais à l'arrivée du C++ moderne qui embarquait les namespaces, toute la librairie standard à été décalée dans le namespace std, et pour ne pas compliquer la vie des développeurs qui avaient déjà des programmes en C++ à l'époque, ils ont décidé d'ajouter le using namespace std.
+Cette ligne est là car à une époque, le C++ ne possédait pas le concept de namespace, donc toute les fonctions, classes, etc... de la librairie standard n'avaient pas de namespace, mais à l'arrivée du C++ moderne qui embarquait les namespaces, toute la librairie standard à été décalée dans le namespace std, et pour ne pas compliquer la vie des développeurs qui avaient déjà des programmes en C++ à l'époque, ils ont décidé d'ajouter le using namespace std.
 
 ## Pourquoi je dois pas l'utiliser
 Imagine que tu as un namespace `foo` et un namespace `bar` qui se présentent sous cette forme :
