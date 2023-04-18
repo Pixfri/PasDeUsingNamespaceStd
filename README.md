@@ -1,6 +1,6 @@
 # Pourquoi il ne faut pas utiliser `using namespace std` en C++ ?
 ## Mais ça me fait gagner du temps ! 
-Tu gagnes vraiment du temps à ne pas écrire 5 caractères ? Même moi avec mon placement catastrophique de mes doigts sur mon clavier je perd même pas une seconde à l'écrire. Et le temps que tu mettras à régler tes problèmes quand tu en aura à cause du `using namespace std`  sera bien supérieur à celui que tu auras économisé en ne tapant pas 5 caractères.
+Tu gagnes vraiment du temps à ne pas écrire 5 caractères ? Même moi avec le placement catastrophique de mes doigts sur mon clavier je perd même pas une seconde à l'écrire. Et le temps que tu mettras à régler tes problèmes quand tu en aura à cause du `using namespace std`  sera bien supérieur à celui que tu auras économisé en ne tapant pas 5 caractères.
 
 ## Pourquoi ça existe s'il faut pas l'utiliser ?
 Cette ligne car à une  époque, le C++ ne possédait pas le concept de namespace, donc toute les fonctions, classes, etc... de la librairie standard n'avaient pas de namespace, mais à l'arrivée du C++ moderne qui embarquait les namespaces, toute la librairie standard à été décalée dans le namespace std, et pour ne pas compliquer la vie des développeurs qui avaient déjà des programmes en C++ à l'époque, ils ont décidé d'ajouter le using namespace std.
