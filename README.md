@@ -96,7 +96,7 @@ int main() {
 
 tu aurais eu aucun problème et t'aurais pas passé du temps à régler le problème.
 
-### English version  
+### 🇬🇧 English version  
 
 If you want to see the English translation click [here](README-en.md)  
 *The translation may not be 100% accurate. If you want to correct any error you can submit a pull request.*  
