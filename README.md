@@ -6,7 +6,7 @@ Tu gagnes vraiment du temps à ne pas écrire 5 caractères ? Même moi avec le 
 
 ## Pourquoi ça existe s'il faut pas l'utiliser ?
 
-Cette ligne est là car à une époque, le C++ ne possédait pas le concept de namespace, donc toute les fonctions, classes, etc... de la bibliothèque standard n'avaient pas de namespace, mais à l'arrivée du C++ moderne qui embarquait les namespaces, toute la bibliothèque standard à été décalée dans le namespace std, et pour ne pas compliquer la vie des développeurs qui avaient déjà des programmes en C++ à l'époque, ils ont décidé d'ajouter le `using namespace std`.
+Cette ligne est là car à une époque, le C++ ne possédait pas le concept de namespace, donc toute les fonctions, classes, etc... de la bibliothèque standard n'avaient pas de namespace, mais à un moment, toute la bibliothèque standard à été décalée dans le namespace std, et pour ne pas compliquer la vie des développeurs qui avaient déjà des programmes en C++ à l'époque, ils ont décidé d'ajouter le `using namespace std`.
 
 ## Pourquoi je ne dois pas l'utiliser
 
